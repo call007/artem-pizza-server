@@ -148,9 +148,9 @@ router.get("/:ingredientId", (req, res) => {
  */
 router.post(
   "/",
-  passport.authenticate("jwt", {
-    session: false,
-  }),
+  // passport.authenticate("jwt", {
+  //   session: false,
+  // }),
   (req, res) => {
     try {
       const { image, thumbnail } = req.files;
