@@ -134,6 +134,15 @@
       "category": "vegetables",
       "image": "tomato.png",
       "thumbnail": "tomato-thumb.png"
+    },
+    {
+      "id": "HV4hh2BU",
+      "name": "30 см",
+      "slug": "30cm",
+      "price": "200",
+      "category": "size",
+      "image": "30cm.gif",
+      "thumbnail": "30cm-thumb.gif"
     }
   ],
   "orders": [
@@ -142,12 +151,7 @@
       "size": "30",
       "dough": "thin",
       "sauce": "mayo",
-      "ingredients": [
-        "pineapple",
-        "cucumber",
-        "salami",
-        "bacon"
-      ],
+      "ingredients": ["pineapple", "cucumber", "salami", "bacon"],
       "address": "Москва, улица Королёва 13",
       "card_number": "1234 1234 1234 1234",
       "name": "Иванов Иван Иванович",
@@ -158,11 +162,7 @@
       "size": 30,
       "dough": "thick",
       "sauce": "mayo",
-      "ingredients": [
-        "cucumber",
-        "salami",
-        "bacon"
-      ],
+      "ingredients": ["cucumber", "salami", "bacon"],
       "address": "Sesame Street *",
       "name": "Ivan Ivanov",
       "card_number": "0000 0000 0000 0000",
@@ -173,10 +173,7 @@
       "size": 35,
       "dough": "thick",
       "sauce": "mayo",
-      "ingredients": [
-        "salami",
-        "bacon"
-      ],
+      "ingredients": ["salami", "bacon"],
       "address": "Sesame Street *",
       "name": "Yulia Ivanova",
       "card_number": "0000 0000 0000 0000",
