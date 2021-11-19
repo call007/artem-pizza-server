@@ -143,6 +143,96 @@
       "category": "size",
       "image": "30cm.gif",
       "thumbnail": "30cm-thumb.gif"
+    },
+    {
+      "id": "qwKeQsH5",
+      "name": "35 см",
+      "slug": "35cm",
+      "price": "200",
+      "category": "size",
+      "image": "35cm.gif",
+      "thumbnail": "35cm-thumb.gif"
+    },
+    {
+      "id": "5PiC-p39",
+      "name": "Тонкое",
+      "slug": "thin",
+      "price": "0",
+      "category": "dough",
+      "image": "thin.gif",
+      "thumbnail": "thin-thumb.gif"
+    },
+    {
+      "id": "4hPSLMuj",
+      "name": "Пышное",
+      "slug": "lush",
+      "price": "50",
+      "category": "dough",
+      "image": "lush.gif",
+      "thumbnail": "lush-thumb.gif"
+    },
+    {
+      "id": "aqSkEbrH",
+      "name": "Томатный",
+      "slug": "tomato",
+      "price": "0",
+      "category": "sauces",
+      "image": "tomato.gif",
+      "thumbnail": "tomato-thumb.gif"
+    },
+    {
+      "id": "Q8oZCs1y",
+      "name": "Майонез",
+      "slug": "mayo",
+      "price": "0",
+      "category": "sauces",
+      "image": "mayo.gif",
+      "thumbnail": "mayo-thumb.gif"
+    },
+    {
+      "id": "L95cQecF",
+      "name": "Острый",
+      "slug": "spicy",
+      "price": "0",
+      "category": "sauces",
+      "image": "spicy.gif",
+      "thumbnail": "spicy-thumb.gif"
+    },
+    {
+      "id": "2XIHBIZH",
+      "name": "Грибной",
+      "slug": "mushroom",
+      "price": "0",
+      "category": "sauces",
+      "image": "mushroom.gif",
+      "thumbnail": "mushroom-thumb.gif"
+    },
+    {
+      "id": "cXT9WA0f",
+      "name": "Чесночный",
+      "slug": "garlic",
+      "price": "0",
+      "category": "sauces",
+      "image": "garlic.gif",
+      "thumbnail": "garlic-thumb.gif"
+    },
+    {
+      "id": "iOnJZ9bE",
+      "name": "Кисло-сладкий",
+      "slug": "sweet-and-sour",
+      "price": "0",
+      "category": "sauces",
+      "image": "sweet-and-sour.gif",
+      "thumbnail": "sweet-and-sour-thumb.gif"
+    },
+    {
+      "id": "lWmwz_nQ",
+      "name": "Горчичный",
+      "slug": "mustard",
+      "price": "0",
+      "category": "sauces",
+      "image": "mustard.gif",
+      "thumbnail": "mustard-thumb.gif"
     }
   ],
   "orders": [
@@ -151,7 +241,12 @@
       "size": "30",
       "dough": "thin",
       "sauce": "mayo",
-      "ingredients": ["pineapple", "cucumber", "salami", "bacon"],
+      "ingredients": [
+        "pineapple",
+        "cucumber",
+        "salami",
+        "bacon"
+      ],
       "address": "Москва, улица Королёва 13",
       "card_number": "1234 1234 1234 1234",
       "name": "Иванов Иван Иванович",
@@ -162,7 +257,11 @@
       "size": 30,
       "dough": "thick",
       "sauce": "mayo",
-      "ingredients": ["cucumber", "salami", "bacon"],
+      "ingredients": [
+        "cucumber",
+        "salami",
+        "bacon"
+      ],
       "address": "Sesame Street *",
       "name": "Ivan Ivanov",
       "card_number": "0000 0000 0000 0000",
@@ -173,7 +272,10 @@
       "size": 35,
       "dough": "thick",
       "sauce": "mayo",
-      "ingredients": ["salami", "bacon"],
+      "ingredients": [
+        "salami",
+        "bacon"
+      ],
       "address": "Sesame Street *",
       "name": "Yulia Ivanova",
       "card_number": "0000 0000 0000 0000",
