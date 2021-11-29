@@ -138,20 +138,11 @@
     {
       "id": "HV4hh2BU",
       "name": "30 см",
-      "slug": "30cm",
+      "slug": "30",
       "price": "200",
       "category": "size",
-      "image": "30cm.gif",
-      "thumbnail": "30cm-thumb.gif"
-    },
-    {
-      "id": "qwKeQsH5",
-      "name": "35 см",
-      "slug": "35cm",
-      "price": "200",
-      "category": "size",
-      "image": "35cm.gif",
-      "thumbnail": "35cm-thumb.gif"
+      "image": "30.gif",
+      "thumbnail": "30-thumb.gif"
     },
     {
       "id": "5PiC-p39",
@@ -226,13 +217,13 @@
       "thumbnail": "sweet-and-sour-thumb.gif"
     },
     {
-      "id": "lWmwz_nQ",
-      "name": "Горчичный",
-      "slug": "mustard",
-      "price": "0",
-      "category": "sauces",
-      "image": "mustard.gif",
-      "thumbnail": "mustard-thumb.gif"
+      "id": "iMYeraB6",
+      "name": "35 см",
+      "slug": "35",
+      "price": "200",
+      "category": "size",
+      "image": "35.gif",
+      "thumbnail": "35-thumb.gif"
     }
   ],
   "orders": [
