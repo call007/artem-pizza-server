@@ -123,7 +123,7 @@ router.post("/", (req, res) => {
       address,
       name,
       card_number,
-      price,
+      price
     } = req.body;
 
     const newOrder = {
@@ -135,7 +135,7 @@ router.post("/", (req, res) => {
       address,
       name,
       card_number,
-      price,
+      price
     };
 
     req.app.db.get("orders").push(newOrder).write();
