@@ -113,7 +113,15 @@ router.get("/", (req, res) => {
  */
 router.post("/", (req, res) => {
   try {
-    const { name, ingredients, dough, sauces, address, card_number } = req.body;
+    const {
+      size,
+      name,
+      ingredients,
+      dough,
+      sauces,
+      address,
+      card_number
+    } = req.body;
 
     const newOrder = {
       id: nanoid(idlength),
@@ -123,7 +131,7 @@ router.post("/", (req, res) => {
       size,
       dough,
       sauces,
-      ingredients,
+      ingredients
     };
 
     req.app.db.get("orders").push(newOrder).write();
