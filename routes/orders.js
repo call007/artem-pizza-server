@@ -30,7 +30,7 @@ const idlength = 8;
  *          id:
  *            type: string
  *            description: Автоматический сгенерированный ID заказа
- *  *       date:
+ *          date:
  *            type: string
  *            description: Дата создания заказа
  *          size:
