@@ -17,6 +17,7 @@ const idlength = 8;
  *      Order:
  *        type: object
  *        required:
+ *          - date
  *          - ingredients
  *          - size
  *          - dough
@@ -28,6 +29,9 @@ const idlength = 8;
  *          id:
  *            type: string
  *            description: Автоматический сгенерированный ID заказа
+ *          date:
+ *            type: string
+ *            description: Дата создания заказа
  *          ingredients:
  *            type: array
  *            items: string
@@ -53,6 +57,7 @@ const idlength = 8;
  *            description: Номер карты
  *        example:
  *           id: d5fE_asz
+ *           date: 22 октября 2020, 9:40
  *           ingredients:
  *             - cucumber
  *             - salami
@@ -114,6 +119,7 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {
   try {
     const {
+      date,
       size,
       name,
       ingredients,
@@ -125,6 +131,7 @@ router.post("/", (req, res) => {
 
     const newOrder = {
       id: nanoid(idlength),
+      date,
       name,
       address,
       card_number,

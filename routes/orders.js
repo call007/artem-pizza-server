@@ -17,6 +17,7 @@ const idlength = 8;
  *      Order:
  *        type: object
  *        required:
+ *          - date
  *          - size
  *          - dough
  *          - sauce
@@ -29,6 +30,9 @@ const idlength = 8;
  *          id:
  *            type: string
  *            description: Автоматический сгенерированный ID заказа
+ *  *       date:
+ *            type: string
+ *            description: Дата создания заказа
  *          size:
  *            type: string
  *            description: Размер пиццы
@@ -55,6 +59,7 @@ const idlength = 8;
  *            type: string
  *            description: Цена заказа
  *        example:
+ *           date: 22 октября 2020, 9:40
  *           size: 30
  *           dough: thick
  *           sauce: mayo
@@ -116,6 +121,7 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {
   try {
     const {
+      date,
       size,
       dough,
       sauce,
@@ -128,6 +134,7 @@ router.post("/", (req, res) => {
 
     const newOrder = {
       id: nanoid(idlength),
+      date,
       size,
       dough,
       sauce,
