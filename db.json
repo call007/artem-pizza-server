@@ -229,6 +229,7 @@
   "orders": [
     {
       "id": "3_xvGN7W",
+      "date": "21 октября 2020, 13:40",
       "size": "30",
       "dough": "thin",
       "sauce": "mayo",
@@ -245,6 +246,7 @@
     },
     {
       "id": "G_91G3gx",
+      "date": "22 октября 2020, 9:40",
       "size": 30,
       "dough": "thick",
       "sauce": "mayo",
@@ -260,6 +262,7 @@
     },
     {
       "id": "zFpWA0PK",
+      "date": "22 октября 2020, 19:40",
       "size": 35,
       "dough": "thick",
       "sauce": "mayo",
