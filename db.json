@@ -167,7 +167,7 @@
       "name": "Томатный",
       "slug": "tomato",
       "price": "0",
-      "category": "sauces",
+      "category": "sauce",
       "image": "tomato.gif",
       "thumbnail": "tomato-thumb.gif"
     },
@@ -176,7 +176,7 @@
       "name": "Майонезный",
       "slug": "mayo",
       "price": "0",
-      "category": "sauces",
+      "category": "sauce",
       "image": "mayo.gif",
       "thumbnail": "mayo-thumb.gif"
     },
@@ -185,7 +185,7 @@
       "name": "Острый",
       "slug": "spicy",
       "price": "0",
-      "category": "sauces",
+      "category": "sauce",
       "image": "spicy.gif",
       "thumbnail": "spicy-thumb.gif"
     },
@@ -194,7 +194,7 @@
       "name": "Грибной",
       "slug": "mushroom",
       "price": "0",
-      "category": "sauces",
+      "category": "sauce",
       "image": "mushroom.gif",
       "thumbnail": "mushroom-thumb.gif"
     },
@@ -203,7 +203,7 @@
       "name": "Чесночный",
       "slug": "garlic",
       "price": "0",
-      "category": "sauces",
+      "category": "sauce",
       "image": "garlic.gif",
       "thumbnail": "garlic-thumb.gif"
     },
@@ -212,7 +212,7 @@
       "name": "Кисло-сладкий",
       "slug": "sweet-and-sour",
       "price": "0",
-      "category": "sauces",
+      "category": "sauce",
       "image": "sweet-and-sour.gif",
       "thumbnail": "sweet-and-sour-thumb.gif"
     },

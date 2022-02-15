@@ -52,7 +52,7 @@ const idlength = 8;
  *            description: Цена ингредиента
  *          category:
  *            type: string
- *            enum: [size, dough, vegetables, sauces, meat, cheese]
+ *            enum: [size, dough, vegetables, sauce, meat, cheese]
  *            description: Категория ингредиента
  *          image:
  *            type: file
