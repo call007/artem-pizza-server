@@ -265,3 +265,15 @@
     }
   ]
 }
+
+      "ingredients": [
+        "salami",
+        "bacon"
+      ],
+      "address": "Sesame Street *",
+      "name": "Yulia Ivanova",
+      "card_number": "0000 0000 0000 0000",
+      "price": 600
+    }
+  ]
+}

@@ -21,15 +21,15 @@ const idlength = 8;
  *          - size
  *          - dough
  *          - sauce
- *          - ingredients
+ *          - cheese
+ *          - meat
+ *          - vegetables
  *          - address
  *          - name
  *          - card_number
  *          - price
  *        properties:
  *          id:
- *            type: string
- *            description: Автоматический сгенерированный ID заказа
  *          date:
  *            type: string
  *            description: Дата создания заказа
@@ -154,3 +154,16 @@ router.post("/", (req, res) => {
 });
 
 module.exports = router;
+
+      address,
+      name,
+      card_number,
+      price
+    };
+
+    req.app.db.get("orders").push(newOrder).write();
+
+    return res.send(newOrder);
+  } catch (e) {
+    return res.status(500).send(e);
+  }
