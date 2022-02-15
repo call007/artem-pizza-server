@@ -237,7 +237,6 @@
         "cheddar"
       ],
       "meat": [
-        "bacon",
         "salami"
       ],
       "vegetables": [
@@ -262,8 +261,7 @@
         "chicken"
       ],
       "vegetables": [
-        "broccoli",
-        "pepper"
+        "broccoli"
       ],
       "address": "Sesame Street *",
       "name": "Ivan Ivanov",
@@ -284,8 +282,7 @@
         "pepperoni"
       ],
       "vegetables": [
-        "olives",
-        "onion"
+        "olives"
       ],
       "address": "Sesame Street *",
       "name": "Yulia Ivanova",
