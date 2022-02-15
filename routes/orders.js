@@ -21,7 +21,9 @@ const idlength = 8;
  *          - size
  *          - dough
  *          - sauce
- *          - ingredients
+ *          - cheese
+ *          - meat
+ *          - vegetables
  *          - address
  *          - name
  *          - card_number
@@ -30,7 +32,7 @@ const idlength = 8;
  *          id:
  *            type: string
  *            description: Автоматический сгенерированный ID заказа
- *  *       date:
+ *          date:
  *            type: string
  *            description: Дата создания заказа
  *          size:
@@ -42,10 +44,18 @@ const idlength = 8;
  *          sauce:
  *            type: string
  *            description: Тип соуса
- *          ingredients:
+ *          cheese:
  *            type: array
  *            items: string
- *            description: Массив с slug - ингредиентов
+ *            description: Массив с slug - сыров
+ *          meat:
+ *            type: array
+ *            items: string
+ *            description: Массив с slug - мяса
+ *          vegetables:
+ *            type: array
+ *            items: string
+ *            description: Массив с slug - овощей
  *          address:
  *            type: string
  *            description: Адрес заказа
@@ -63,10 +73,15 @@ const idlength = 8;
  *           size: 30
  *           dough: thick
  *           sauce: mayo
- *           ingredients:
- *             - cucumber
+ *           cheese:
+ *             - cheddar
+ *           meat:
  *             - salami
  *             - bacon
+ *           vegetables:
+ *             - olives
+ *             - onion
+ *             - pepper
  *           address: Sesame Street *
  *           name: Ivan Ivanov
  *           card_number: 0000 0000 0000 0000
@@ -125,11 +140,13 @@ router.post("/", (req, res) => {
       size,
       dough,
       sauce,
-      ingredients,
+      cheese,
+      meat,
+      vegetables,
       address,
       name,
       card_number,
-      price
+      price,
     } = req.body;
 
     const newOrder = {
@@ -138,11 +155,13 @@ router.post("/", (req, res) => {
       size,
       dough,
       sauce,
-      ingredients,
+      cheese,
+      meat,
+      vegetables,
       address,
       name,
       card_number,
-      price
+      price,
     };
 
     req.app.db.get("orders").push(newOrder).write();
