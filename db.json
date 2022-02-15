@@ -233,9 +233,17 @@
       "size": "30",
       "dough": "thin",
       "sauce": "mayo",
-      "cheese": ["cheddar"],
-      "meat": ["bacon", "salami"],
-      "vegetables": ["pineapple", "mushrooms"],
+      "cheese": [
+        "cheddar"
+      ],
+      "meat": [
+        "bacon",
+        "salami"
+      ],
+      "vegetables": [
+        "pineapple",
+        "mushrooms"
+      ],
       "address": "Москва, улица Королёва 13",
       "card_number": "4234 5555 2002 6554",
       "name": "Иванов Иван Иванович",
@@ -247,9 +255,16 @@
       "size": 30,
       "dough": "lush",
       "sauce": "mayo",
-      "cheese": ["mozarella"],
-      "meat": ["chicken"],
-      "vegetables": ["broccoli", "pepper"],
+      "cheese": [
+        "mozarella"
+      ],
+      "meat": [
+        "chicken"
+      ],
+      "vegetables": [
+        "broccoli",
+        "pepper"
+      ],
       "address": "Sesame Street *",
       "name": "Ivan Ivanov",
       "card_number": "5421 2005 1447 2345",
@@ -261,9 +276,17 @@
       "size": 35,
       "dough": "lush",
       "sauce": "mayo",
-      "cheese": ["dor-blue"],
-      "meat": ["ham", "pepperoni"],
-      "vegetables": ["olives", "onion"],
+      "cheese": [
+        "dor-blue"
+      ],
+      "meat": [
+        "ham",
+        "pepperoni"
+      ],
+      "vegetables": [
+        "olives",
+        "onion"
+      ],
       "address": "Sesame Street *",
       "name": "Yulia Ivanova",
       "card_number": "5647 0000 2000 4855",

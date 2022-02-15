@@ -17,10 +17,12 @@ const idlength = 8;
  *      Order:
  *        type: object
  *        required:
- *          - ingredients
  *          - size
  *          - dough
- *          - sauces
+ *          - sauce
+ *          - cheese
+ *          - meat
+ *          - vegetables
  *          - address
  *          - name
  *          - card_number
@@ -28,20 +30,27 @@ const idlength = 8;
  *          id:
  *            type: string
  *            description: Автоматический сгенерированный ID заказа
- *          ingredients:
+ *          cheese:
  *            type: array
  *            items: string
- *            description: Массив с названиями топпингов
+ *            description: Массив с slug - сыров
+ *          meat:
+ *            type: array
+ *            items: string
+ *            description: Массив с slug - мяса
+ *          vegetables:
+ *            type: array
+ *            items: string
+ *            description: Массив с slug - овощей
  *          size:
  *            type: string
  *            description: Размер пиццы
  *          dough:
  *            type: string
  *            description: Тип теста
- *          sauces:
- *            type: array
- *            items: string
- *            description: Массив с названиями соусов
+ *          sauce:
+ *            type: string
+ *            description: Тип соуса
  *          address:
  *            type: string
  *            description: Адрес заказа
@@ -53,12 +62,16 @@ const idlength = 8;
  *            description: Номер карты
  *        example:
  *           id: d5fE_asz
- *           ingredients:
- *             - cucumber
+ *           sauce: mayo
+ *           cheese:
+ *             - cheddar
+ *           meat:
  *             - salami
  *             - bacon
- *           sauces:
- *             - mayo
+ *           vegetables:
+ *             - olives
+ *             - onion
+ *             - pepper
  *           size: 30
  *           dough: thick
  *           name: Ivan Ivanov
@@ -116,11 +129,13 @@ router.post("/", (req, res) => {
     const {
       size,
       name,
-      ingredients,
+      cheese,
+      meat,
+      vegetables,
       dough,
-      sauces,
+      sauce,
       address,
-      card_number
+      card_number,
     } = req.body;
 
     const newOrder = {
@@ -130,8 +145,10 @@ router.post("/", (req, res) => {
       card_number,
       size,
       dough,
-      sauces,
-      ingredients
+      sauce,
+      cheese,
+      meat,
+      vegetables,
     };
 
     req.app.db.get("orders").push(newOrder).write();
