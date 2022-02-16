@@ -230,7 +230,7 @@
     {
       "id": "3_xvGN7W",
       "date": "21 октября 2020, 13:40",
-      "size": "30",
+      "size": 30,
       "dough": "thin",
       "sauce": "mayo",
       "cheese": [
@@ -246,7 +246,7 @@
       "address": "Москва, улица Королёва 13",
       "card_number": "4234 5555 2002 6554",
       "name": "Иванов Иван Иванович",
-      "price": "600"
+      "price": 780
     },
     {
       "id": "G_91G3gx",
@@ -266,7 +266,7 @@
       "address": "Sesame Street *",
       "name": "Ivan Ivanov",
       "card_number": "5421 2005 1447 2345",
-      "price": 600
+      "price": 730
     },
     {
       "id": "zFpWA0PK",
@@ -287,7 +287,7 @@
       "address": "Sesame Street *",
       "name": "Yulia Ivanova",
       "card_number": "5647 0000 2000 4855",
-      "price": 600
+      "price": 830
     }
   ]
 }

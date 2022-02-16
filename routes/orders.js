@@ -36,7 +36,7 @@ const idlength = 8;
  *            type: string
  *            description: Дата создания заказа
  *          size:
- *            type: string
+ *            type: number
  *            description: Размер пиццы
  *          dough:
  *            type: string
@@ -66,7 +66,7 @@ const idlength = 8;
  *            type: string
  *            description: Номер карты
  *          price:
- *            type: string
+ *            type: number
  *            description: Цена заказа
  *        example:
  *           date: 22 октября 2020, 9:40

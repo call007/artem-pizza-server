@@ -48,7 +48,7 @@ const idlength = 8;
  *            type: string
  *            description: Идентификатор ингредиента
  *          price:
- *            type: string
+ *            type: number
  *            description: Цена ингредиента
  *          category:
  *            type: string
