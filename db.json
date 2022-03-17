@@ -245,7 +245,7 @@
       ],
       "address": "Москва, улица Королёва 13",
       "card_number": "4234 5555 2002 6554",
-      "name": "Иванов Иван Иванович",
+      "name": "DENIS IVANOV",
       "price": 780
     },
     {
@@ -264,7 +264,7 @@
         "broccoli"
       ],
       "address": "Sesame Street *",
-      "name": "Ivan Ivanov",
+      "name": "IVAN IVANOV",
       "card_number": "5421 2005 1447 2345",
       "price": 730
     },
@@ -285,7 +285,7 @@
         "olives"
       ],
       "address": "Sesame Street *",
-      "name": "Yulia Ivanova",
+      "name": "YULIA IVANOVA",
       "card_number": "5647 0000 2000 4855",
       "price": 830
     }

@@ -17,6 +17,7 @@ const idlength = 8;
  *      Order:
  *        type: object
  *        required:
+ *          - date
  *          - size
  *          - dough
  *          - sauce
@@ -31,6 +32,9 @@ const idlength = 8;
  *          id:
  *            type: string
  *            description: Автоматический сгенерированный ID заказа
+ *          date:
+ *            type: string
+ *            description: Дата создания заказа
  *          cheese:
  *            type: array
  *            items: string
@@ -66,6 +70,7 @@ const idlength = 8;
  *            description: Цена заказа
  *        example:
  *           id: d5fE_asz
+ *           date: 22 октября 2020, 9:40
  *           sauce: mayo
  *           cheese:
  *             - cheddar
@@ -132,6 +137,7 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {
   try {
     const {
+      date,
       size,
       name,
       cheese,
@@ -146,6 +152,7 @@ router.post("/", (req, res) => {
 
     const newOrder = {
       id: nanoid(idlength),
+      date,
       name,
       address,
       card_number,
